@@ -18,7 +18,8 @@ The project will run on **Windows, macOS, and Linux** with a single codebase, le
 - Cross-platform: Runs on Windows, macOS, Linux.
 
 ## Project Structure (Proposed)
----
+
+```text
 LogicArena/
 ├── engine/                 # Core game engine
 │   ├── game_loop.py        # Main loop controlling ticks and updates
@@ -47,6 +48,7 @@ LogicArena/
 │
 ├── main.py                 # Entry point for the game
 └── README.md               # Project documentation
+```
 
 ## Tech Stack (Proposed)
 - Python 3.12 – Core programming language
